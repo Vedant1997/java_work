@@ -12,10 +12,10 @@ public class Class7_Subarray_VedantSharma {
 		int arr[]=new int[size];
 		System.out.println("Enter "+size+" Elements :");
 		for(int a=0;a<size;a++) {
-			arr[a]=scan.nextInt();
+			arr[a]=scan.nextInt();  
 		}
 		int count=1;
-		int arry[]=new int[size];
+		
 		int max=0;
 		for(int a=0;a<size-1;a++) {
 			if(arr[a]<arr[a+1]) {
@@ -25,7 +25,7 @@ public class Class7_Subarray_VedantSharma {
 				}
 			}
 			if(arr[a]>arr[a+1]) {
-				count=0;
+				count=1;
 				continue;
 			}
 			
