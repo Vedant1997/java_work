@@ -1,0 +1,32 @@
+Java Quiz Class 8
+
+Q1.For every......after compilation?
+Ans:True
+
+Q2.Can you .... below code?
+Ans:An interface can never have a private variable as, interfaces are meant to be inherited ie.
+all its members need to be utilixed by the inheriting class so,if you declare a variable private 
+inside the interface you will restrict its scope of being used by the other classes.Hence having 
+a private variable inside the interface is meaningless and hence shows error.
+
+Q3.Can a ... one interface?
+Ans:Yes
+
+Q4.Why the below ... time error?
+Ans:Because the scope of the methodX() in the class Y is not public.
+
+Q5.How to ....code below?
+Ans:We can access 'i' by writting "Q.i;" in the main.We can do this because an interface cannot create
+its objects so,we can directly access its data members.
+
+Q6.Can we use .... Block?
+Ans:We cannot use abstract with a constructor.
+
+Q7.Why final.....at a time?
+Ans:Abstract keyword is used when we want to change the value of a given data member or override a 
+member function whereas final keyword is used where we strictly do not want to change the value of
+the data members or we do not want to overide the member fuctions.Since both final and abstract
+are used for completely different and opposite purposes we cannot use both at the same time.
+
+Q8.Can we instantiate ..... as abstract?
+Ans:Yes we can declare a class abstarct without having a single abstract function. 
